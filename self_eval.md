@@ -12,4 +12,4 @@
 
 3. What about your thinking, learning, or work today brought you the most satisfaction? Why?
 
-*The first code challenge that has us assess whether an integer was odd or even, which exposed me to new ruby commands. So when it came time to test multiples, I assumed there was a handy command for that, and I tested a few based on that assumption, which is how I came across the modulo command. It was cool to do some successful trial and error based on that deduction rather than immediately googling the answer.*
+*The first code challenge had us assess whether an integer was odd or even, which exposed me to new ruby commands. So when it came time to test multiples, I assumed there was a handy command for that, and I tested a few based on that assumption. That is how I came across the modulo command, and it was cool to do some successful trial and error based on that deduction rather than immediately googling the answer.*
