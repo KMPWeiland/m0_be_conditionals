@@ -125,5 +125,5 @@ puts loves_to_play || loves_dog_park
 puts loves_to_play && age < 2
 
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER: The final line evluated to true because we know he loves to play and that 
+# ANSWER: The final line evaluated to true because we know he loves to play and that 
 # his age is 1, which according to the given assumption, still makes him a puppy.
