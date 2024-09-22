@@ -26,6 +26,19 @@ end
 
 # Experiment with manipulating the value held in variable 'weather'
 # to print something other than 'sunscreen'
+weather = "rainy"
+if weather == "sunny"
+  p "sunscreen"
+elsif weather == "rainy"
+  p "umbrella"
+elsif weather == "snowy"
+  p "coat"
+elsif weather == "icy"
+  p "yak traks"
+else
+  p "good to go!"
+end
+
 
 
 ##################
@@ -42,10 +55,18 @@ end
 # to make sure both conditions can be achieved.
 
 num_quarters = 0
-
+if num_quarters >= 2
 puts "I have enough money for a gumball"
+else
 puts "I don't have enough money for a gumball"
+end
 
+num_quarters = 4
+if num_quarters >= 2
+  puts "I have enough money for a gumball"
+  else
+  puts "I don't have enough money for a gumball"
+  end
 
 #####################
 # Using the variables defined below, write code that will tell you
@@ -63,3 +84,32 @@ puts "I don't have enough money for a gumball"
 
 cups_of_flour = 1
 has_sauce = true
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza."
+else
+  puts "I cannot make pizza."
+end
+
+cups_of_flour = 5
+has_sauce = false
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza."
+else
+  puts "I cannot make pizza."
+end
+
+cups_of_flour = 2
+has_sauce = true
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza."
+else
+  puts "I cannot make pizza."
+end
+
+cups_of_flour = 3
+has_sauce = true
+if cups_of_flour >= 2 && has_sauce == true
+  puts "I can make pizza."
+else
+  puts "I cannot make pizza."
+end
